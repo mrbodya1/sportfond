@@ -1,0 +1,8 @@
+# Overlay for the existing sportfond-home-probe project.
+# Token lives outside the repository on the Linux filesystem.
+services:
+  tunnel:
+    image: cloudflare/cloudflared@sha256:b94b96edf2c9c4360f8879c8580cfaa99077f19c849ec595ca2f711b27d4f344
+    command: ["tunnel", "--no-autoupdate", "--protocol", "http2", "run"]
+    env_file:
+      - /var/lib/sentinelx/edit-test/sportfond-home/tunnel.env
