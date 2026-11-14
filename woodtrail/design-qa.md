@@ -1,0 +1,6 @@
+# Design QA
+final result: passed
+Reference: current approved sportfondhm.ru design, intentionally recolored green; provided WOOD TRAIL assets and original page copy.
+Visual comparison: wood-style-comparison.png shows current portal and new WOOD TRAIL mobile heroes side by side at390x844 CSS px. Same typography, centered photographic hero and primary CTA; green/offwhite tokens intentionally replace blue.
+Desktop1440 and mobile390 screenshots inspected. Fonts, spacing rhythm, palette, imagery and copy checked. Six distance cards, eight historical albums, volunteer and partner sections use supplied images. All images decoded successfully. Initial full-page capture omitted lazy images; eager decoded screenshot verified them. Child mascot cropping fixed with contain, final inspection follows.
+Widths320/390/768/1440 have no horizontal overflow. Mobile menu opens and closes via distance anchor. Six distance pages each contain two informational panels, no purchase URLs. No JavaScript page errors. Duplicate registration note removed. Registration/payment/participant integrations intentionally deferred by owner. GPX downloads and supplied DOCX retained. Actual iOS Safari not tested. No P0/P1/P2 issue remains; P3: final dates and schedule require owner content confirmation before official announcement.
