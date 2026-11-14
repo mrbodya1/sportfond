@@ -11,3 +11,6 @@ Iteration 2: typography uses Montserrat / Open Sans, navy/blue/offwhite tokens; 
 
 Browser checks: muted autoplay 1920x1012, duration12.45 seconds, playback confirmed; pause button confirmed. Mobile menu opens and closes through Start link. Widths320/390/768: no horizontal overflow. No page JavaScript errors. Desktop/mobile screenshots retained in local redesign review folder. Actual iPhone Safari not tested; low power mode may require manual play.
 Build and Sites compatibility: 4 tests passed.
+
+## Content revision — 2026-11-14
+Owner removed Cold Games and all 9000km references before official announcement. Navigation now points to photo moments. Added six original backup images and uncredited editorial motivational phrases. WOOD TRAIL retained as single full-width event. Browser verification: no removed-project text, six gallery images, real video wrap from end to 0.97 seconds while still playing. No horizontal overflow at320/390/768/1440. Desktop gallery revised to equal-height rows to avoid empty grid cells. Mobile photo crops inspected. Final result remains passed for revised content; original concept is layout inspiration with owner-authorized content changes.

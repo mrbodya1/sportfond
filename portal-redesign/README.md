@@ -10,7 +10,7 @@ Static files: dist/client. Sites worker and metadata are also emitted by the tem
 ## Content and assets
 Original backup remains unchanged in Downloads/backup/root/sportfond/portal.
 Assets copied from D:/Projects/sportfond-home/media. Hero video: videoplayback - Trim.mp4 (3.46 MB).
-Events link to existing production pages; dates from the old backup deliberately omitted until verified.
+WOOD TRAIL links to its existing page; Cold Games and 9000km references were removed per owner. Event dates omitted until verified.
 App and map remain independent services. No keys, participant data or backend in this project.
 Video is muted, looping and playsinline; pause control and reduced-motion preference supported.
 iOS power saving can prevent autoplay; poster and manual play remain available.
