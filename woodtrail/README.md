@@ -14,3 +14,5 @@ GPX and regulation downloads use supplied files. Route illustrations are origina
 ## Deployment
 Preview only, production unchanged. For publication, copy this directory's selected HTML/CSS/JS/images/files into existing sportfond repository woodtrail/ without touching portal root or unrelated apps. Preserve recovery via a separate commit.
 Do not copy source backups, data/limetime.json or old scripts. No API credentials or customer data in GitHub.
+
+Card assets: maskot + distance; relay uses maskot_relay_1-1. Wide headers mapping:700m=maskot1_16-9,1500m=maskot1500_16-9,3km=maskot2_16-9,10km=maskot3_16-9,30km=maskot4_16-9,relay=maskot_relay_16-9. Cards must stay square with distance/age/description over image and hover/focus highlight.
