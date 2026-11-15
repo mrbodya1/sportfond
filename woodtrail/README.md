@@ -16,3 +16,5 @@ Preview only, production unchanged. For publication, copy this directory's selec
 Do not copy source backups, data/limetime.json or old scripts. No API credentials or customer data in GitHub.
 
 Card assets: maskot + distance; relay uses maskot_relay_1-1. Wide headers mapping:700m=maskot1_16-9,1500m=maskot1500_16-9,3km=maskot2_16-9,10km=maskot3_16-9,30km=maskot4_16-9,relay=maskot_relay_16-9. Cards must stay square with distance/age/description over image and hover/focus highlight.
+
+2026-11-15: Registration buttons now point to verified organizer event https://racetime.online/sportfondhm/woodtrail27#409665600. Per-distance packet URLs were not verified and are not guessed. Partner dialog POSTs name/email/explicit consent/source to api.sportfondhm.ru/api/partners. Presentation is pending; no email sent. Stored in private app.sqlite3 partnership_requests, daily backup included. Public API connectivity currently under investigation; local HTTPS and validation passed.
