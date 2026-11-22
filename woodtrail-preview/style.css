@@ -62,3 +62,6 @@
 
 .distance p:not(.eyebrow) { background:none; padding:0; }
 #route .route-photo { width:100%; height:auto; border-radius:0; }
+
+.distances { margin-top:0; }
+.quote-photo { display:block; width:100%; height:auto; margin-top:24px; }
