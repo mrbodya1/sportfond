@@ -29,8 +29,8 @@
 /* Distance numbers are the focal point; Woody belongs to the event. */
 .distance-grid { gap:16px; }
 .distance { aspect-ratio:auto; background:#193a2b; border-radius:12px; }
-.distance:nth-child(-n+2) { background:#365a40; }
-.distance:last-child { background:#263b31; }
+.distance:nth-child(-n+2) { background-color:#365a40; }
+.distance:last-child { background-color:#263b31; }
 .distance::before,.distance-hero::before { display:none; }
 .distance > div { min-height:240px; justify-content:flex-start; padding:24px; }
 .distance h3 { color:#e4f3bd; font-size:clamp(50px,7vw,88px); margin:12px 0; }
@@ -59,4 +59,6 @@
 .distance-hero { background-size:100% 100%,auto 140%; }
 .trail-photo { margin:0; position:relative; isolation:isolate; }
 .trail-photo .route-photo { display:block; }
-.woody-peek { position:absolute; inset:auto 12px 0 auto; width:clamp(72px,18vw,152px); aspect-ratio:1; object-fit:cover; object-position:center 20%; clip-path:ellipse(44% 50% at 50% 54%); }
+
+.distance p:not(.eyebrow) { background:none; padding:0; }
+#route .route-photo { width:100%; height:auto; border-radius:0; }
