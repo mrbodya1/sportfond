@@ -76,3 +76,23 @@
 #contacts { margin:0; border-radius:0; padding:24px clamp(18px,4vw,48px) 16px; }
 #contacts .footer-word { margin:16px 0 12px; font-size:clamp(34px,7vw,96px); }
 #contacts .footer-bottom { padding-top:12px; }
+
+/* Shared page surfaces and section headings */
+:root { --paper:#cfe7a4; --section-heading:clamp(32px,6vw,68px); }
+body,.distances,.volunteers,#contacts,.registration-block { background-color:var(--paper); color:var(--ink); }
+.distance,.distance:nth-child(-n+2),.distance:last-child,.distance-hero {
+  background-color:var(--paper);
+  background-image:url('images/relief-lines.svg?v=green1');
+  background-size:auto 130%;
+  color:var(--ink);
+}
+.distance { border:1px solid #193a2b55; }
+.distance h3,.distance .eyebrow,.distance p:not(.eyebrow),.distance .more,
+.distance-hero h1,.distance-hero-copy,#contacts .footer-word,
+#contacts .footer-top > div > p:last-child,#contacts .footer-bottom { color:var(--ink); }
+#contacts .footer-bottom { border-color:#193a2b44; }
+#content h2,.distance-main h2 {
+  font:800 var(--section-heading)/1.05 Montserrat,sans-serif;
+  letter-spacing:-.045em;
+  overflow-wrap:anywhere;
+}
