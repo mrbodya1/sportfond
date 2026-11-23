@@ -71,8 +71,8 @@
 #content > .distances { margin-bottom: 40px; }
 
 .route-layout > img { height:auto; object-fit:contain; }
-.route-links { display:flex; flex-wrap:wrap; gap:8px; }
-.route-links .button { width:auto; }
+.route-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; max-width:360px; }
+.route-links .button { display:flex; align-items:center; justify-content:center; width:100%; min-height:48px; padding:10px 6px; text-align:center; }
 #contacts { margin:0; border-radius:0; padding:24px clamp(18px,4vw,48px) 16px; }
 #contacts .footer-word { margin:16px 0 12px; font-size:clamp(34px,7vw,96px); }
 #contacts .footer-bottom { padding-top:12px; }
