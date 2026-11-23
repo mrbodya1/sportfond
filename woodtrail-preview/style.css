@@ -83,3 +83,5 @@
   letter-spacing:-.045em;
   overflow-wrap:anywhere;
 }
+
+#content > .info { margin-bottom:40px; }
