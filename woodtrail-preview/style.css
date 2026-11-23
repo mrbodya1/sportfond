@@ -85,3 +85,5 @@
 }
 
 #content > .info { margin-bottom:40px; }
+
+.team-section > h2,.route-download > h2 { margin:0 0 24px; }
