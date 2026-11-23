@@ -65,3 +65,5 @@
 
 .distances { margin-top:0; }
 .quote-photo { display:block; width:100%; height:auto; margin-top:24px; }
+
+#content > section { padding-top: 40px; }
