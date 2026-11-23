@@ -67,3 +67,5 @@
 .quote-photo { display:block; width:100%; height:auto; margin-top:24px; }
 
 #content > section { padding-top: 40px; padding-bottom: 0; }
+
+#content > .distances { margin-bottom: 40px; }
