@@ -116,3 +116,27 @@
 
 #content > .partners { padding-bottom: 24px; }
 img:not(.hero-bg), .history-grid a { border-radius: 12px; }
+
+#content > .info:has(+ .visit) { margin-bottom: 0; }
+.visit-intro { max-width: 62ch; margin: 16px 0 24px; }
+.visit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.visit-grid article {
+  padding: 20px;
+  border: 1px solid #c6d3c0;
+  border-radius: 12px;
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+.visit-grid h3 { margin: 0; font-size: clamp(19px, 2vw, 24px); }
+.visit-grid p, .visit-grid ul { margin: 12px 0 0; }
+.visit-grid ul { padding-inline-start: 20px; }
+.visit-grid li + li { margin-top: 10px; }
+.visit-grid a { text-decoration: underline; text-underline-offset: 3px; }
+.visit-grid article > a { display: inline-block; margin-top: 12px; }
+@media (max-width: 760px) {
+  .visit-grid { grid-template-columns: 1fr; }
+}
