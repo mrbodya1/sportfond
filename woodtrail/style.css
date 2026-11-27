@@ -140,3 +140,18 @@ img:not(.hero-bg), .history-grid a { border-radius: 12px; }
 @media (max-width: 760px) {
   .visit-grid { grid-template-columns: 1fr; }
 }
+
+.navlinks { gap: clamp(12px, 1.5vw, 24px); flex-wrap: wrap; justify-content: flex-end; }
+.mobile-nav { max-height: calc(100vh - 110px); overflow-y: auto; }
+@media (min-width: 641px) and (max-width: 1100px) {
+  .navlinks { display: none; }
+  .menu {
+    display: block;
+    color: white;
+    border: 1px solid #ffffff70;
+    background: #17372899;
+    padding: 10px 14px;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+}
