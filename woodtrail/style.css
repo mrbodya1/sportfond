@@ -113,3 +113,6 @@
   display: none;
 }
 .distance-price[hidden] { display: none; }
+
+#content > .partners { padding-bottom: 24px; }
+img:not(.hero-bg), .history-grid a { border-radius: 12px; }
