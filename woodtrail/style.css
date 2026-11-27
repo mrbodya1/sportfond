@@ -87,3 +87,29 @@
 #content > .info { margin-bottom:40px; }
 
 .team-section > h2,.route-download > h2 { margin:0 0 24px; }
+.price-countdown {
+  margin: 16px 0 20px;
+  padding: 12px 16px;
+  border-inline-start: 3px solid #537c3e;
+  border-radius: 4px;
+  background: #e7eedc;
+  color: #193a2b;
+  font-weight: 700;
+}
+.distance-price {
+  display: grid;
+  gap: 4px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(228, 243, 189, .35);
+  color: #f6f8f1;
+  font-size: .9rem;
+}
+.distance-price strong {
+  color: #e4f3bd;
+  font-size: 1.45rem;
+}
+.distance-price [hidden] {
+  display: none;
+}
+.distance-price[hidden] { display: none; }
